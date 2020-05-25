@@ -101,10 +101,7 @@ class Transactions{
             else{
                 swal("Login Failed!!!", "Invalid Mpin");
             }   
-    }
-
-    
-    
+    }  
 }
 
 
@@ -125,6 +122,4 @@ function remove(){
         document.querySelector("#accno").value="";
         document.querySelector("#acmpin").value="";
     }
-
-
 }
